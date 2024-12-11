@@ -17,6 +17,7 @@ export const PlanetDetails = () => {
             <h1>{planet.result?.properties?.name}</h1>
             <p>Diameter: {planet.result?.properties?.diameter} </p>
             <p>Rotation period: {planet.result?.properties?.rotation_period} </p>
+            <p>Gravity: {planet.result?.properties?.gravity} </p>
         </div>
     )
 };

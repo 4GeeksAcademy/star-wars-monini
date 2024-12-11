@@ -16,7 +16,8 @@ export const VehicleDetails = () => {
             <img src={`https://starwars-visualguide.com/assets/img/vehicles/${params.uid}.jpg`} className="card-img-top" alt="..." style={{width: "18rem"}} />
             <h1>{vehicle.result?.properties?.model}</h1>
             <p>Vehicle class: {vehicle.result?.properties?.vehicle_class} </p>
-            <p>manufacturer: {vehicle.result?.properties?.manufacturer} </p>
+            <p>Manufacturer: {vehicle.result?.properties?.manufacturer} </p>
+            <p>Length: {vehicle.result?.properties?.length} </p>
         </div>
     )
 };

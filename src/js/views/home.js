@@ -20,10 +20,14 @@ export const Home = () => {
 									<img src={`https://starwars-visualguide.com/assets/img/characters/${character.uid}.jpg`} className="card-img-top" alt="..." />
 									<div className="card-body">
 										<h5 className="card-title">{character.name}</h5>
-										<Link to={`/characters/${character.uid}`}>
-											<button className="btn btn-primary">More details</button>
-										</Link>
-										<button onClick={() => actions.addFavorite(character.name)}><i className="fa-solid fa-heart"></i></button>
+										<div className="button-group">
+											<Link to={`/characters/${character.uid}`}>
+												<button className="btn btn-dark">More details</button>
+											</Link>
+											<button className="btn btn-dark" onClick={() => actions.addFavorite(character.name)}>
+												<i className="fa-solid fa-heart"></i>
+											</button>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -43,10 +47,12 @@ export const Home = () => {
 									<img src={`https://starwars-visualguide.com/assets/img/vehicles/${vehicle.uid}.jpg`} className="card-img-top" alt="..." />
 									<div className="card-body">
 										<h5 className="card-title">{vehicle.name}</h5>
-										<Link to={`/vehicles/${vehicle.uid}`}>
-											<button className="btn btn-primary">More details</button>
-										</Link>
-										<button onClick={() => actions.addFavorite(vehicle.name)}><i className="fa-solid fa-heart"></i></button>
+										<div className="button-group">
+											<Link to={`/vehicles/${vehicle.uid}`}>
+												<button className="btn btn-dark">More details</button>
+											</Link>
+											<button className="btn btn-dark" onClick={() => actions.addFavorite(vehicle.name)}><i className="fa-solid fa-heart"></i></button>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -66,10 +72,12 @@ export const Home = () => {
 									<img src={`https://starwars-visualguide.com/assets/img/planets/${planet.uid}.jpg`} className="card-img-top" alt="..." />
 									<div className="card-body">
 										<h5 className="card-title">{planet.name}</h5>
-										<Link to={`/planets/${planet.uid}`}>
-											<button className="btn btn-primary">More details</button>
-										</Link>
-										<button onClick={() => actions.addFavorite(planet.name)}><i className="fa-solid fa-heart"></i></button>
+										<div className="button-group">
+											<Link to={`/planets/${planet.uid}`}>
+												<button className="btn btn-dark">More details</button>
+											</Link>
+											<button className="btn btn-dark" onClick={() => actions.addFavorite(planet.name)}><i className="fa-solid fa-heart"></i></button>
+										</div>
 									</div>
 								</div>
 							</div>

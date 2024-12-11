@@ -17,6 +17,8 @@ export const CharacterDetails = () => {
             <h1>{character.result?.properties?.name}</h1>
             <p>Hair Color: {character.result?.properties?.hair_color} </p>
             <p>Height: {character.result?.properties?.height} </p>
+            <p>Skin Color: {character.result?.properties?.skin_color} </p>
+            <p>Gender: {character.result?.properties?.gender} </p>
         </div>
     )
 };

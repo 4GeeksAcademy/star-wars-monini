@@ -1,3 +1,9 @@
 /* 
     General Styles
 */
+.nav-button {
+  
+   float: right;
+   padding-right: 10px;
+   margin-right: 5px;
+}
