@@ -9,11 +9,11 @@ export const Navbar = () => {
 		<div class="container">
 			<nav className="navbar navbar-light bg-light mb-3">
 				<Link to="/">
-					<span className="navbar-brand mb-0 h1">React Boilerplate</span>
+					<img src="https://logos-world.net/wp-content/uploads/2020/11/Star-Wars-Logo.png" alt="Star Wars Logo" className="navbar-logo" />
 				</Link>
 				<div className="ml-auto">
 					<div className="dropdown">
-						<button className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+						<button className="btn btn-dark dropdown-toggle bt-navbar" type="button" data-bs-toggle="dropdown" aria-expanded="false">
 							Favorites
 						</button>
 						<ul className="dropdown-menu">

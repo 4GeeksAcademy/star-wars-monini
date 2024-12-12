@@ -9,7 +9,7 @@ export const Home = () => {
 
 	return (
 		< div className="container text-center mt-5" >
-			<h1>Start Wars</h1>
+			<h1>Star Wars</h1>
 			<div className="row">
 				<h2>Characters</h2>
 				<div className="d-flex custom-card">{
